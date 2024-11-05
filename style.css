@@ -39,6 +39,7 @@ p{
     font-family: Roboto Mono;
     color: white;
     font-size:xx-large;
+    padding:2vw;
 
 
 
@@ -48,14 +49,16 @@ a{
     font-family: Roboto Mono;
     color: white;
     font-size:x-large;
+    margin-top:2vw;
 }
 #container{
     background-color: rgba(199,221,242, 0.8);
     background-size: contain;
-    box-shadow: rgba(199,221,242, 0.8)  0px 30px 30px 30px;
+    padding: 2vw;
 }
 .small{
     font-size:medium;
     color: white;
     font-family: Roboto Mono;
+    margin-top:1vw;
 }
