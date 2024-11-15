@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 
-#header h1{
-    display: center;
-    float: none;
-    font-size: xx-large;
-    font-family: Roboto Mono;
-
-
+#header {
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;    margin-left: 0px;
+    margin: 0px;
+    padding-top: 2vmin;
+    padding-bottom: 2vmin;
+    width: 100vw;
+    display: inline-block;
 }
 
 #links{
@@ -16,10 +16,20 @@
     align-content: center;
     text-align: center;
     min-height: 100vh;
+    min-width: 100vw;
 
 
 }
-
+body, html{
+    background-color: #88a9d5;
+    overflow: hidden;
+    overflow-y: scroll;
+    max-height: 100%;
+    max-width: 100%;
+    min-width: 250px;
+    min-height: 250px;
+    
+}
 #header{
     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;    margin-left: 0px;
     margin-right: 0px;
@@ -43,6 +53,7 @@ p{
 
 
 
+
 }
 a{
     box-shadow: rgba(7, 7, 7, 0.2) 0px 2px 6px;
@@ -54,11 +65,20 @@ a{
 #container{
     background-color: rgba(199,221,242, 0.8);
     background-size: contain;
-    padding: 2vw;
+    width: 100vw;
 }
 .small{
     font-size:medium;
     color: white;
     font-family: Roboto Mono;
     margin-top:1vw;
+}
+
+#maplink{
+    box-shadow: rgba(7, 7, 7, 0.4) 0px 2px 6px;
+    font-family: Roboto Mono;
+
+    color: white;
+    font-size:xx-large;
+    margin-top:2vw;
 }
