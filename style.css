@@ -15,8 +15,9 @@
     z-index: -5;
     align-content: center;
     text-align: center;
-    min-height: 100vh;
+    background-repeat: no-repeat;
     min-width: 100vw;
+    background-size: 100vw;
 
 
 }
@@ -64,7 +65,8 @@ a{
 }
 #container{
     background-color: rgba(199,221,242, 0.8);
-    background-size: contain;
+    margin-top: 40vh;
+    margin-bottom: 40vh;
     width: 100vw;
 }
 .small{
